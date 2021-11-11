@@ -1,0 +1,26 @@
+.domain_selector {
+  flex: 1;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.current_domain {
+  margin-top: 10px;
+  font-size: 1.2em;
+  padding: 6px;
+  border-radius: 4px;
+  transition: all 0.1s;
+}
+
+.current_domain:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.current_domain_title {
+  margin-right: 10px;
+}
